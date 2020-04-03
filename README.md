@@ -1,10 +1,6 @@
-# Jupyterhub on DigitalOcean to serve notebooks for a course
+# Underworld cloud on digital ocean 
 
-Many of us use jupyter notebooks to teach classes and we often serve them through `mybinder.org` because all of our students experience the same environment no matter what platform they use. The only problem with binder is that any changes the students make to their notebooks are not recorded if their session times out - the student session on binder is *not persistent* across sessions. 
-
-Persistence does introduce some complications - every user has to be identified so that their session can be restored. Someone has to provide secure access and long-lived storage on top of the required computational environment.   
-
-This is an attempt to provide a template to build a cheap-and-cheerful jupyter-notebook server that can handle the needs of a medium sized class. Following this template means that the class coordinator can focus on the content rather than the setup. 
+This is a template repository for setting up a [digital ocean](https://www.digitalocean.com/) jupyterhub running underworld codes. It can be used as a starting point for quickly setting up a new lightweight jupyterhub service. 
 
 ## Description
 
@@ -13,10 +9,9 @@ is stored in the repository secret variables. Github actions are configured to m
 the content of the server when changes to the configuration are pushed. The actions also check to see if the server
 is alive and well. 
 
-This template repository contains sample content that runs on a dedicated droplet ... the status of that droplet
-is autoatically monitored:
+This template repository contains a couple of test notebooks to ensure that the hub is working and that the software stack is correctly installed. Once running, however, it can be used to run arbitrary content via [nbgitpuller](https://jupyterhub.github.io/nbgitpuller)
  
-![Health check](https://github.com/ANU-RSES-Education/droplet-template/workflows/Health%20check/badge.svg)
+![Health check](https://github.com/ underworld-geodynamics-cloud/underworld-cloud-droplet/workflows/Health%20check/badge.svg)
 
 
 ## How to use this template
