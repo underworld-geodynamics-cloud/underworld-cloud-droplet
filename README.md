@@ -32,9 +32,9 @@ To make a "binder-like" link to a repository on a droplet that you have set up, 
 
 [![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-LinkMaker-Red)](https://jupyterhub.github.io/nbgitpuller/link.html?hub=https://demon.underworldcloud.org&repo=https://github.com/underworld-geodynamics-cloud/underworld-cloud-droplet)
 
-<!-- You can launch this example particular example to try it out by clicking on this link. Your work is persistent. 
+You can launch this example particular example to try it out by clicking on this link. Your work is persistent. 
 
-[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Launch-Demo-blue)](http://demon.underworldcloud.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FANU-RSES-Education%2Fdroplet-template&urlpath=tree%2Fdroplet-template%2FStartHere.ipynb&branch=master) -->
+[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Launch-Demo-blue)](https://demon.underworldcloud.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Funderworld-geodynamics-cloud%2Funderworld-cloud-droplet&urlpath=lab%2Ftree%2Funderworld-cloud-droplet%2FStartHere.ipynb)
     
 ## Administration tasks
     
