@@ -11,7 +11,7 @@ is alive and well.
 
 This template repository contains a couple of test notebooks to ensure that the hub is working and that the software stack is correctly installed. Once running, however, it can be used to run arbitrary content via [nbgitpuller](https://jupyterhub.github.io/nbgitpuller)
  
-![Health check](https://github.com/ underworld-geodynamics-cloud/underworld-cloud-droplet/workflows/Health%20check/badge.svg)
+![Health check](https://github.com/underworld-geodynamics-cloud/underworld-cloud-droplet/workflows/Health%20check/badge.svg)
 
 
 ## How to use this template
@@ -34,17 +34,17 @@ To make a "binder-like" link to a repository on a droplet that you have set up, 
 
 You can launch this example particular example to try it out by clicking on this link. Your work is persistent. 
 
-[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Launch-Simple_Demo-blue)](https://demon.underworldcloud.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Funderworld-geodynamics-cloud%2Funderworld-cloud-droplet&urlpath=lab%2Ftree%2Funderworld-cloud-droplet%2FStartHere.ipynb)
+[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Launch-UnderworldDemo-blue)](https://demon.underworldcloud.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Funderworld-geodynamics-cloud%2Funderworld-cloud-droplet&urlpath=lab%2Ftree%2Funderworld-cloud-droplet%2FStartHere.ipynb)
 
-[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Launch-Underworld_Demo-blue)](https://demon.underworldcloud.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Funderworld-community%2Funderworld-standard-examples+&urlpath=lab%2Ftree%2Funderworld-standard-examples%2FREADME.md)
-    
+<!-- [![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Launch-Underworld_Demo-blue)](https://demon.underworldcloud.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Funderworld-community%2Funderworld-standard-examples+&urlpath=lab%2Ftree%2Funderworld-standard-examples%2FREADME.md)
+     -->
 ## Administration tasks
     
-If the hub has a signup page it can be reached here:
+The hub signup page it can be reached here. You will need to wait for an administrator to authorise your access request. 
     
 [![Signup](https://img.shields.io/badge/User-Signup-blue)](https://demon.underworldcloud.org/hub/signup)
 
-And the corresponding page for an admin user to authorise the users after they sign-up is
+The corresponding page for an admin user to authorise the users after they sign-up is
     
 [![Authorize](https://img.shields.io/badge/Admin-Authorize-Red)](https://demon.underworldcloud.org/hub/authorize)
    

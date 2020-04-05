@@ -9,11 +9,10 @@ dependencies:
     - cartopy
     - obspy
     - pandas
-    - pip 
-    - libiconv  # Not sure why this is not a dependency of lxml (conda bug)
+    - pip
+    - libiconv
     - swig
     - scons
-    - compilers # No underworld binaries at this point
-
+    - compilers 
 
 
