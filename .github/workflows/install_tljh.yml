@@ -45,7 +45,7 @@ jobs:
         $REMOTE_SH "sudo tljh-config set services.cull.timeout 1800"
 
         # Activate all the above changes by reloading the hub 
-        $REMOTE_SH "sudo tljh-config reload hub
+        $REMOTE_SH "sudo tljh-config reload hub"
         
         # Update/Install apt-get packages
         sed '/^[[:blank:]]*#/d;s/#.*//' apt_get_packages.txt > apt_get_packages_no_comment.txt
