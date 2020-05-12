@@ -28,7 +28,7 @@ The full set of instructions is given in the [Documentation](Documentation) fold
 
 To make a "binder-like" link to a repository on a droplet that you have set up, you can read the [nbgitpuller documentation](https://jupyterhub.github.io/nbgitpuller/link.html) or fill out a form here:
 
-[![https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>](https://img.shields.io/badge/Admin-LinkMaker-Red)](https://jupyterhub.github.io/nbgitpuller/link.html?hub=https://demon.underworldcloud.org&repo=https://github.com/underworld-community/X-X-X)
+[![Link Maker](https://img.shields.io/badge/Admin-LinkMaker-Red)](https://jupyterhub.github.io/nbgitpuller/link.html?hub=https://demon.underworldcloud.org&repo=https://github.com/underworld-community/X-X-X)
 
 You can launch this example particular example to try it out by clicking on this link. Your work is persistent. 
 
