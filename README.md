@@ -5,9 +5,7 @@ This is a template repository for setting up a [digital ocean](https://www.digit
 ## Description
 
 This repository can build itself into a digital ocean droplet that runs (the littlest) jupyterhub with the underlying dependencies that you specify in a conda environment `yml` file. The configuration of the droplet
-is stored in the repository secret variables. Github actions are configured to monitor the repository and update
-the content of the server when changes to the configuration are pushed. The actions also check to see if the server
-is alive and well. 
+is stored in the repository secret variables. Github actions are configured to monitor the repository and update the content of the server when changes to the configuration are pushed. The actions also check to see if the server is alive and well. 
 
 This template repository contains a couple of test notebooks to ensure that the hub is working and that the software stack is correctly installed. Once running, however, it can be used to run arbitrary content via [nbgitpuller](https://jupyterhub.github.io/nbgitpuller)
  
